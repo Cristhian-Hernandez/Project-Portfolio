@@ -1,0 +1,209 @@
+/*I don't have to explain these, do I?*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #888888;
+}
+
+/*Middle white strip*/
+.midstrip {
+  background-color: white;
+  display: block;
+  width: 90%;
+  position: relative;
+  bottom: 0;
+  top: 0;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(86, 85, 85, 0.8), -12px 0 15px -4px rgba(86, 85, 85, 0.8);
+}
+
+/*Buttons in botbar and navbar*/
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  margin: 0;
+  color: white;
+}
+
+.botli {
+  float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+}
+
+/*Navigation bar*/
+.navbar {
+  position: fixed;
+  top: 0;
+  border-radius: 0px 0px 10px 10px;
+  width: 98%;
+  z-index: 100;
+}
+
+/*Bottom bar*/
+.botbar {
+  position: absolute;
+  bottom: 0;
+  border-radius: 10px 10px 0px 0px;
+  width: 98%;
+  height: 50px;
+  z-index: 99;
+}
+
+/*Brief description, about me ofc*/
+.desc {
+  background-color: purple;
+  padding: 15px 0px 15px 15px;
+  margin-bottom: 60px;
+  width: 71%;
+  height: auto;
+  border-radius: 0px 0px 15px 15px;
+  border: 1px rgba(143, 69, 188, 0,8);
+  box-shadow: -5px 5px 5px -5px #333, 5px 5px 5px -5px #333;
+  z-index: 10;
+}
+
+/*My sexy photo*/
+#cristhian {
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 150px;
+}
+
+/*Portfolio images holder*/
+.thumbnail {
+  background-color: purple;
+  margin-bottom: 60px;
+  padding: 15px 0px;
+  width: 71%;
+  height: auto;
+  border-radius: 0px 0px 15px 15px;
+  border: 1.4px solid purple;
+  box-shadow: -5px 5px 5px -5px #333, 5px 5px 5px -5px #333;
+  z-index: 10;
+}
+
+/*Settings for portfolio images*/
+.images {
+  background-color: white;
+  margin-top: 25px;
+  height: 100%;
+  width: 100%;
+}
+
+.above {
+  margin-top: 0px;
+}
+
+/*Contact form*/
+.container {
+  background-color: purple;
+  padding: 15px 0px;
+  margin-bottom: 60px;
+  width: 71%;
+  height: auto;
+  border-radius: 0px 0px 15px 15px;
+  border: 1px rgba(143, 69, 188, 0,8);
+  box-shadow: -5px 5px 5px -5px #333, 5px 5px 5px -5px #333;
+  z-index: 10;
+}
+
+.cform {
+  color: white;
+  background-color: purple;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 60%;
+  height: 30px;
+}
+
+.submit {
+  width: 100px; 
+  background-color: purple; 
+  color: white; 
+  font-weight: bold; 
+  font-size: 20px; 
+  border: none;
+}
+
+.submit:hover {
+  background-color: white;
+  color: purple;
+}
+/*My credit in the footer of the page*/
+.author {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/*Heading size for titles*/
+h1 {
+  font-size: 400%;
+}
+
+/*Section Titles*/
+#about {
+  color: white;
+  background-color: #7f7f7f;
+  width: 71%;
+  border-radius: 15px 15px 0px 0px;
+  text-align: center;
+  height: 170px;
+  box-shadow: -5px 15px 5px -5px #333, 5px 15px 5px -5px #333;
+  z-index: 9;
+}
+
+#portfolio {
+  color: #7f7f7f;
+  background-color: #e8e8e8;
+  width: 71%;
+  border-radius: 15px 15px 0px 0px;
+  text-align: center;
+  margin-top: 0px;
+  height: 170px;
+  box-shadow: -5px 15px 5px -5px #333, 5px 15px 5px -5px #333;
+  z-index: 9;
+}
+
+#contact {
+  color: white;
+  background-color: #7f7f7f;
+  width: 71%;
+  border-radius: 15px 15px 0px 0px;
+  text-align: center;
+  height: 170px;
+  box-shadow: -5px 15px 5px -5px #333, 5px 15px 5px -5px #333;
+  z-index: 9;
+}
+
+/*href for navbar buttons*/
+#cont, #port, #bout {
+  height: 60px;
+}
